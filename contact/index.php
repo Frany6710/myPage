@@ -33,11 +33,11 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html"><i
+                            <a class="nav-link active" aria-current="page" href="../"><i
                                     class="fas fa-home"></i> Home</a>
                         </li>
     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html#about"><i class="fas fa-info-circle"></i>     Sobre Nosotros</a>
+                    <a class="nav-link active" aria-current="page" href="../#about"><i class="fas fa-info-circle"></i>     Sobre Nosotros</a>
                   </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#"><i class="fas fa-envelope"></i>
