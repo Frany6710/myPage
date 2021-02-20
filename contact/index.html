@@ -13,7 +13,6 @@
     <title>FRANY6710 HOMEPAGE</title>
     <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/3e819e558c.js" crossorigin="anonymous"></script>
-    <script src="../js/sendmail.js"></script>
 </head>
 
 <body>
@@ -69,17 +68,17 @@
                     <div class="card" style="margin-top: 50px; margin-bottom: 100px;">
                         <div class="card-body">
                             <h3 class="card-title text-center">E-mail</h3>
-                            <form id="form">
+                            <form id="form" action="https://backend-page-frany6710.herokuapp.com/send" method="POST">
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                 </div>
                                 <div class="mb-3">
                                     <label for="name" class="form-label">Tu Nombre</label>
-                                    <input type="text" class="form-control" id="name" aria-describedby="namehelp">
+                                    <input name="name" type="text" class="form-control" id="name" aria-describedby="namehelp">
                                 </div>
                                 <div class="mb-3">
-                                    <button class="btn btn-primary" style="width: 100%;" onclick="sendmail('franciscoglogauer@gmail.com')">Submit</button>
+                                    <button class="btn btn-primary" style="width: 100%;" type="submit">Submit</button>
                                 </div>
                             </form>
                         </div>
