@@ -43,7 +43,7 @@ background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, F
                     <a class="nav-link active" aria-current="page" href="#about"><i class="fas fa-info-circle"></i>     Sobre Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="./contact/index.html"><i class="fas fa-envelope"></i> Contactame</a>
+                    <a class="nav-link active" href="./contact"><i class="fas fa-envelope"></i> Contactame</a>
                   </li>
                 </ul>
               </div>
